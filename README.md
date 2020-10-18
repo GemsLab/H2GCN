@@ -1,6 +1,6 @@
 # H2GCN
 
-Jiong Zhu, Yujun Yan, Lingxiao Zhao, Mark Heimann, Leman Akoglu, and Danai Koutra. *Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs*. 34th Conference on Neural Information Processing Systems (NeurIPS 2020), December 2020 
+Jiong Zhu, Yujun Yan, Lingxiao Zhao, Mark Heimann, Leman Akoglu, and Danai Koutra. *Beyond Homophily in Graph Neural Networks: Current Limitations and Effective Designs*. 34th Conference on Neural Information Processing Systems (NeurIPS 2020), December 2020.
 
 [[Preprint]](https://arxiv.org/abs/2006.11468)
 
