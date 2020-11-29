@@ -1,0 +1,14 @@
+{
+    "model_args": [
+        "--hid_units 8"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

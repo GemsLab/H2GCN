@@ -1,0 +1,14 @@
+{
+    "model_args": [
+        "H2GCN --network_setup M64-MO --lr 0.05 --l2_regularize_weight 1e-5",
+        "H2GCN --network_setup M64-R-MO --lr 0.05 --l2_regularize_weight 1e-5",
+        "H2GCN --network_setup M64-D-MO --lr 0.05 --l2_regularize_weight 1e-5",
+        "H2GCN --network_setup M64-R-D-MO --lr 0.05 --l2_regularize_weight 1e-5"
+    ],
+    "exp_regex": "^cora_full.*0\\.25p__0\\.5p",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "datasetName": "cora_full"
+    }
+}

@@ -1,0 +1,22 @@
+{
+
+    "model_args": [
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 40 --weight_decay 1e-5",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 100 --weight_decay 1e-5",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 200 --weight_decay 1e-5",
+ 
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 40 --weight_decay 5e-5",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 100 --weight_decay 5e-5",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 200 --weight_decay 5e-5",
+ 
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 40 --weight_decay 1e-6",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 100 --weight_decay 1e-6",
+        "--model gcn_concat_2 --hidden1 64 --early_stopping 200 --weight_decay 1e-6"
+    ],
+    "exp_regex": "^cora_full.*0\\.25p__0\\.5p",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "datasetName": "cora_full"
+    }
+}

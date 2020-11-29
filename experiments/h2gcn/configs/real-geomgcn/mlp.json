@@ -1,0 +1,17 @@
+{
+    "model_args": [
+        "H2GCN --network_setup M64-MO",
+        "H2GCN --network_setup M64-R-MO",
+        "H2GCN --network_setup M64-D-MO",
+        "H2GCN --network_setup M64-R-D-MO"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

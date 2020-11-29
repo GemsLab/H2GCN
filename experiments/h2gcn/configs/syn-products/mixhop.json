@@ -1,0 +1,12 @@
+{
+    "model_args": [
+        "--adj_pows=0,1,2 --hidden_dims_csv 64 --retrain",
+        "--adj_pows=0,1,2 --hidden_dims_csv 192 --retrain"
+    ],
+    "exp_regex": "ogbn_products-08a6c4ed60f3f2eedc40525294e51ec5",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "numNode": 10000
+    }
+}

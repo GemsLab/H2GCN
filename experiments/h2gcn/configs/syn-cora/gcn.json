@@ -1,0 +1,22 @@
+{
+
+    "model_args": [
+       "--model gcn --hidden1 16 --early_stopping 40",
+       "--model gcn --hidden1 32 --early_stopping 40",
+       "--model gcn --hidden1 64 --early_stopping 40",
+       
+       "--model gcn --hidden1 16 --early_stopping 100",
+       "--model gcn --hidden1 32 --early_stopping 100",
+       "--model gcn --hidden1 64 --early_stopping 100",
+
+       "--model gcn --hidden1 16 --early_stopping 200",
+       "--model gcn --hidden1 32 --early_stopping 200",
+       "--model gcn --hidden1 64 --early_stopping 200"
+    ],
+    "exp_regex": "cora_row-0.25p__0.5p",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "numNode": 1490
+    }
+}

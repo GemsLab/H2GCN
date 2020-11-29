@@ -1,0 +1,16 @@
+{
+    "model_args": [
+       "--model gcn --hidden1 64 --early_stopping 40",
+       "--model gcn --hidden1 64 --early_stopping 100",
+       "--model gcn --hidden1 64 --early_stopping 200"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

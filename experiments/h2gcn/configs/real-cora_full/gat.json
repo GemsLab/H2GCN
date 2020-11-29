@@ -1,0 +1,13 @@
+{
+    "model_args": [
+        "--hid_units 8",
+        "--hid_units 8 --l2_coef 1e-5",
+        "--hid_units 8 --l2_coef 5e-5"
+    ],
+    "exp_regex": "^cora_full.*0\\.25p__0\\.5p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "datasetName": "cora_full"
+    }
+}

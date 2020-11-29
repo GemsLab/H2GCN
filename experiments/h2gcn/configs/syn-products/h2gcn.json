@@ -1,0 +1,14 @@
+{
+    "model_args": [
+        "H2GCN --network_setup M64-R-T1-G-V-C1-MO --adj_nhood 1 2 --no_feature_normalize",
+        "H2GCN --network_setup M64-R-T1-G-V-C1-D0.5-MO --adj_nhood 1 2 --no_feature_normalize",
+        "H2GCN --network_setup M64-R-T1-G-V-T2-G-V-C1-C2-MO --adj_nhood 1 2 --no_feature_normalize",
+        "H2GCN --network_setup M64-R-T1-G-V-T2-G-V-C1-C2-D0.5-MO --adj_nhood 1 2 --no_feature_normalize"
+    ],
+    "exp_regex": "ogbn_products-08a6c4ed60f3f2eedc40525294e51ec5",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "numNode": 10000
+    }
+}

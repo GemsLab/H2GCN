@@ -1,0 +1,11 @@
+{
+
+    "model_args": [
+        "H2GCN --network_setup M64-R-D0.5-MO"
+    ],
+    "exp_regex": "cora_row-0.25p__0.5p",
+    "arg_regex": "",
+    "graph_filter_dict": {
+        "numNode": 1490
+    }
+}

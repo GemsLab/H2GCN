@@ -1,0 +1,15 @@
+{
+    "model_args": [
+        "--adj_pows=0,1,2 --hidden_dims_csv 64 --retrain",
+        "--adj_pows=0,1,2 --hidden_dims_csv 192 --retrain"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

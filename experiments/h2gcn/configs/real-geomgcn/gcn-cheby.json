@@ -1,0 +1,19 @@
+{
+    "model_args": [
+       "--model gcn_cheby --hidden1 64 --weight_decay 1e-5 --max_degree 2 --early_stopping 40",
+       "--model gcn_cheby --hidden1 64 --weight_decay 5e-4 --max_degree 2 --early_stopping 40",
+       "--model gcn_cheby --hidden1 64 --weight_decay 1e-5 --max_degree 2 --early_stopping 100",
+       "--model gcn_cheby --hidden1 64 --weight_decay 5e-4 --max_degree 2 --early_stopping 100",
+       "--model gcn_cheby --hidden1 64 --weight_decay 1e-5 --max_degree 2 --early_stopping 200",
+       "--model gcn_cheby --hidden1 64 --weight_decay 5e-4 --max_degree 2 --early_stopping 200"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

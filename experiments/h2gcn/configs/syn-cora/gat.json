@@ -1,0 +1,21 @@
+{
+
+    "model_args": [
+        "--hid_units 8",
+        "--hid_units 16",
+        "--hid_units 32",
+        "--hid_units 64",
+
+        "--hid_units 8 --n_heads 4 1",
+        "--hid_units 16 --n_heads 4 1",
+        "--hid_units 32 --n_heads 4 1",
+        "--hid_units 64 --n_heads 4 1",
+
+        "--hid_units 8 --n_heads 1 1",
+        "--hid_units 16 --n_heads 1 1",
+        "--hid_units 32 --n_heads 1 1",
+        "--hid_units 64 --n_heads 1 1"
+    ],
+    "exp_regex": "cora_row-0.25p__0.5p",
+    "arg_regex": ""
+}

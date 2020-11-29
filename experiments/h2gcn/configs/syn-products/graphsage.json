@@ -1,0 +1,14 @@
+{
+    "model_args": [
+        "--hid_units 128 --epochs 500",
+        "--hid_units 128 --lr 0.1 --epochs 500",
+        "--hid_units 64 --epochs 500",
+        "--hid_units 64 --lr 0.1 --epochs 500"
+    ],
+    "exp_regex": "ogbn_products-08a6c4ed60f3f2eedc40525294e51ec5",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "numNode": 10000
+    }
+}

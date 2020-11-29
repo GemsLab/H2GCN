@@ -1,0 +1,15 @@
+{
+    "model_args": [
+        "--hid_units 64 --epochs 500 --model_class SupervisedGraphSageConcat",
+        "--hid_units 64 --lr 0.1 --epochs 500 --model_class SupervisedGraphSageConcat"
+    ],
+    "exp_regex": "unmodified-0\\.48p__0\\.2p",
+    "arg_regex": "",
+    
+    "graph_filter_dict": {
+        "benchmark": true,
+        "$or": [
+            {"method.$in": ["planetoid", "GeomGCN"]}
+        ]
+    }
+}

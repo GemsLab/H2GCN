@@ -1,0 +1,11 @@
+{
+    "model_args": [
+        "H2GCN --network_setup M64-R-D-MO --no_feature_normalize"
+    ],
+    "exp_regex": "ogbn_products-08a6c4ed60f3f2eedc40525294e51ec5",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "numNode": 10000
+    }
+}

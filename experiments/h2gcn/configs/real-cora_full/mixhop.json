@@ -1,0 +1,16 @@
+{
+
+    "model_args": [
+        "--adj_pows=0,1,2 --retrain --l2reg 5e-4",
+        "--adj_pows=0,1,2 --hidden_dims_csv 192 --retrain --l2reg 5e-4",
+
+        "--adj_pows=0,1,2 --retrain --l2reg 5e-5",
+        "--adj_pows=0,1,2 --hidden_dims_csv 192 --retrain --l2reg 5e-5"
+    ],
+    "exp_regex": "^cora_full.*0\\.25p__0\\.5p",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "datasetName": "cora_full"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "model_args": [
+        "--hid_units 64 --epochs 2000"
+    ],
+    "exp_regex": "^cora_full.*0\\.25p__0\\.5p",
+    "arg_regex": "",
+
+    "graph_filter_dict": {
+        "datasetName": "cora_full"
+    }
+}
