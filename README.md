@@ -6,6 +6,12 @@ Jiong Zhu, Yujun Yan, Lingxiao Zhao, Mark Heimann, Leman Akoglu, and Danai Koutr
 [[Poster]](https://www.jiongzhu.net/assets/files/F20-Jiong-H2GCN-NeurIPS-Poster.pdf)
 [[Slides]](https://www.jiongzhu.net/assets/files/F20-Jiong-H2GCN-NeurIPS-Talk.pdf)
 
+## Updates
+
+- Oct. 2021: We additionally provide our synthetic datasets `syn-cora` and `syn-products` in a more straight-forward `npz` format; see README in folder `/npz-datasets` for more details.
+
+- Aug. 2021: In a [blog post](https://www.jiongzhu.net/revisiting-heterophily-GNNs/), we revisit the problem of heterophily for GNNs and discuss the reasons behind seemly different takeaways in light of recent works in this area.
+
 ## Requirements
 
 ### Basic Requirements
@@ -59,6 +65,10 @@ signac find benchmark true datasetName\.\$regex "cora"
 ```
 
 `/experiments/h2gcn/utils/signac_tools.py` provides helpful functions to iterate through the data space in Python; more usages of signac can be found in these [documents](https://docs.signac.io/en/latest/).
+
+#### Alternative: Download `syn-cora` and `syn-products` in `npz` Format
+
+If you are interested in using the two synthetic datasets `syn-cora` and `syn-products` in your own research, we additionally provide them in a more straight-forward `npz` format; See README in folder `/npz-datasets` for more details. Note that the new `npz` format does NOT keep the same training, validation and test splits used in our experiments; for [replicating our experiments](#replicate-experiments-with-signac), please follow the above approach to download the datasets in the old format.
 
 ### Replicate Experiments with `signac`
 
