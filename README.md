@@ -68,7 +68,7 @@ signac find benchmark true datasetName\.\$regex "cora"
 
 #### Alternative: Download `syn-cora` and `syn-products` in `npz` Format
 
-If you are interested in using the two synthetic datasets `syn-cora` and `syn-products` in your own research, we additionally provide them in a more straight-forward `npz` format; See README in folder `/npz-datasets` for more details. Note that the new `npz` format does NOT keep the same training, validation and test splits used in our experiments; for [replicating our experiments](#replicate-experiments-with-signac), please follow the above approach to download the datasets in the old format.
+If you are interested in using the two synthetic datasets `syn-cora` and `syn-products` in your own research, we additionally provide them in a more straight-forward `npz` format; See README in folder `/npz-datasets` for more details. Note that the new `npz` format does NOT keep the same training, validation and test splits **and ratios** used in our experiments; for [replicating our experiments](#replicate-experiments-with-signac), please follow the above approach to download the datasets in the old format.
 
 ### Replicate Experiments with `signac`
 

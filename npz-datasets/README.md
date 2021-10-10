@@ -4,7 +4,7 @@
 
 This README provides information in addition to [the main README](/..) for usages of the two synthetic datasets `syn-cora` and `syn-products` in `npz` format. The data format is extended from the data format of the [`DeepRobust`](https://github.com/DSE-MSU/DeepRobust) library by Li et al.
 
-Note that the new `npz` format does NOT keep the same training, validation and test splits used in our experiments; for replicating our experiments, please follow the approach in [the main README](/..) to download the datasets in the old format.
+Note that the new `npz` format does NOT keep the same training, validation and test splits **and ratios** used in our experiments; for replicating our experiments, please follow the approach in [the main README](/..) to download the datasets in the old format.
 
 ### Download Datasets
 
