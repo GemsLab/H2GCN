@@ -45,7 +45,7 @@ As a general note, TensorFlow 1.15 can be used for all code requiring TensorFlow
 
 ### Download Datasets
 
-The datasets can be downloaded using the bash scripts provided in `/experiments/h2gcn/scripts`, which also prepare the datasets for use in our experimental framework based on `signac`.
+The datasets can be downloaded using the bash scripts provided in `/experiments/h2gcn/scripts` (requires the latest version of [`gdown`](https://github.com/wkentaro/gdown) to be installed), which also prepare the datasets for use in our experimental framework based on `signac`.
 
 We make use of `signac` to index and manage the datasets: the datasets and experiments are stored in hierarchically organized signac jobs, with the **1st level** storing different graphs, **2nd level** storing different sets of features, and **3rd level** storing different training-validation-test splits. Each level contains its own state points and job documents to differentiate with other jobs.
 

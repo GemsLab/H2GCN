@@ -8,7 +8,7 @@ Note that the new `npz` format does NOT keep the same training, validation and t
 
 ### Download Datasets
 
-The datasets can be downloaded using the bash scripts provided in the `scripts` folder under this folder.
+The datasets can be downloaded using the bash scripts provided in the `scripts` folder under this folder. Installation of the latest version of [`gdown`](https://github.com/wkentaro/gdown) is required.
 
 ### Example Usage
 
